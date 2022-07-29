@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0DDAA;
+}
+.toolbox-cont{
+    background-color: #141E27;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+
+  
+}
+.toolbox-priority-cont{
+    background-color: #EEEDDE;
+    height: 3rem;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+
+}
+.action-btn-cont{
+    background-color: #EEEDDE;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    
+   
+ }
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+}
+
+.modal-cont{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    background-color:#EEEDDE;
+    height: 50vh;
+    width: 50vw;
+    display:none;
+   
+}
+
+.textarea-cont{
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 2rem;
+    background-color: #EEEDDE;
+    height: 74%;
+    width: 75%;
+    padding: 3rem;
+    border-right: 2px solid #141E27
+  
+}
+
+.priority-color-cont{
+   
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+
+.priority-color{
+    height: 2rem;
+    width: 4rem;
+    
+   
+}
+
+.active{
+    border:5px solid #E0DDAA;
+}
+
+.main-cont{
+margin-top: 7rem;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 2rem;
+margin-bottom: 2rem;
+}
+
+.ticket-cont{
+background-color: rgb(221, 240, 238);
+height: 10rem;
+width: 16rem;
+}
+
+.ticket-color{
+height: 1rem;
+}
+
+.ticket-id{
+height: 1.5rem;
+padding: 5px;
+font-weight: 600;
+font-size: .9rem;
+color: lightcoral;
+margin-left: 0.3rem;
+margin-top: 0.3rem;
+}
+
+.task-area{
+    height: 5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 1.25rem;
+    overflow: auto;
+    outline: none;
+    word-break: break-all;
+}
+
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-left: 14.5rem;
+  
+}
+
+
+
+
+
+
